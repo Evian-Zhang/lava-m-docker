@@ -2,7 +2,7 @@
 set -eu
 
 PROJECT_DIR="$( cd "$( dirname "$0" )" && pwd )"
-MY_USER=$(MY_USERNAME:-"evian")
+MY_USER=${MY_USERNAME:-"evian"}
 
 apt-get update
 apt-get install -y \
