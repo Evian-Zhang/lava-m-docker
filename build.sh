@@ -22,7 +22,7 @@ cp /usr/bin/aclocal /usr/bin/aclocal-1.15
 cp /usr/bin/automake /usr/bin/automake-1.15
 
 # Download LAVA-M dataset
-curl http://panda.moyix.net/~moyix/lava_corpus.tar.xz -o lava_corpus.tar.xz
+curl https://panda.moyix.net/~moyix/lava_corpus.tar.xz -o lava_corpus.tar.xz
 # Decompress into ./lava_corpus
 tar -xvf lava_corpus.tar.xz
 
